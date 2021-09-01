@@ -349,7 +349,6 @@ i.fa.fa-bars.bar-icon {
   height: 5px;
   top: 50px;
   right: 0;
-  z-index: -1;
   background-color: #ba71da;
   border-radius: 2px;
 }
