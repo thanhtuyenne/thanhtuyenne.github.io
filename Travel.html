@@ -16,10 +16,134 @@
     ></script>
   </head>
   <body>
-    <div class="main">
+      <!-- Aside Bar -->
+    <div class="aside-bar" id="closeBar">
+        <div class="bar-content">
+          <div class="best-packages">
+            <i class="far fa-times-circle icon-close" onclick="closeBar()"></i>
+            <div class="best-head">
+              <p class="cmn-small">BEST</p>
+              <p class="cmn-big yel-line">PACKAGES</p>
+            </div>
+            <div class="cmn-block-aside">
+              <div class="block-img">
+                <img src="./img/berlin.jpg" alt="" class="cmn-img" />
+              </div>
+              <div class="block-desc">
+                <p class="name-place">Berlin</p>
+                <div class="info-direct">
+                  <i class="fas fa-map-marker-alt direct-icon"></i>
+                  <p class="direct-name">Europe</p>
+                </div>
+                <a href="#" class="block-price berlin-color">FROM 700 $</a>
+              </div>
+            </div>
+            <div class="cmn-block-aside">
+              <div class="block-img">
+                <img src="./img/hongkong.jpg" alt="" class="cmn-img" />
+              </div>
+              <div class="block-desc">
+                <p class="name-place">Hong Kong</p>
+                <div class="info-direct">
+                  <i class="fas fa-map-marker-alt direct-icon"></i>
+                  <p class="direct-name">Asia</p>
+                </div>
+                <a href="#" class="block-price hk-icon">FROM 500 $</a>
+              </div>
+            </div>
+            <div class="cmn-block-aside">
+              <div class="block-img">
+                <img src="./img/sanf.jpg" alt="" class="cmn-img" />
+              </div>
+              <div class="block-desc">
+                <p class="name-place">San Francisco</p>
+                <div class="info-direct">
+                  <i class="fas fa-map-marker-alt direct-icon"></i>
+                  <p class="direct-name">United States</p>
+                </div>
+                <a href="#" class="block-price us-icon">FROM 400 $</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="best-destination">
+            <div class="img-line">
+              <img src="./img/europe.jpg" alt="Europe" class="des-img" />
+              <i class="fas fa-hotel img-icon"></i>
+              <div class="img-desc">
+                <h3 class="img-heading">Europe</h3>
+                <p class="img-pack">3 PACKAGES</p>
+            </div>
+          </div>
+          <div class="img-back">
+            <div class="img-back-content">
+              <h2 class="img-title">Packages</h2>
+              <ul class="img-list">
+                <li class="img-item">
+                  <a href="#" class="img-item-link">Berlin</a>
+                </li>
+                <li class="img-item">
+                  <a href="#" class="img-item-link">Amsterdam</a>
+                </li>
+                <li class="img-item">
+                  <a href="#" class="img-item-link">Tuscany</a>
+                </li>
+              </ul>
+              <a href="#" class="img-btn">VIEW DESTINATION</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="best-minute">
+          <div class="best-head">
+            <p class="cmn-small">LAST</p>
+            <p class="cmn-big ble-line">MINUTES</p>
+          </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/beach2.jpg" alt="" class="cmn-img" />
+            </div>
+            <div class="block-desc">
+              <p class="name-place">Phuket</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">Thailandia</p>
+              </div>
+              <a href="#" class="block-price thai-color">FROM 1200 $</a>
+            </div>
+          </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/italy.jpg" alt="" class="cmn-img" />
+            </div>
+            <div class="block-desc">
+              <p class="name-place">Tuscany</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">Italia</p>
+              </div>
+              <a href="#" class="block-price ita-color">FROM 1500 $</a>
+            </div>
+          </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/sanfransico.jpg" alt="" class="cmn-img" />
+            </div>
+            <div class="block-desc">
+              <p class="name-place">Amsterdam</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">Netherlands</p>
+              </div>
+              <a href="#" class="block-price am-color">FROM 1500 $</a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    <div class="main"> 
       <!-- Header -->
       <div class="header">
-        <img src="./img/bgTravel.jpg" alt="Background" class="header-img" />
         <div class="header-bar">
           <img src="./img/logoT.png" alt="Logo" class="logo-bar" />
         </div>
@@ -196,7 +320,7 @@
           <button class="header-btn">BOOK NOW</button>
         </div>
         <div class="header-icon">
-          <i class="fa fa-bars bar-icon"></i>
+          <i class="fa fa-bars bar-icon" onclick="openBar()"></i>
         </div>
 
         <!-- Main Header -->
@@ -791,6 +915,14 @@
           </div>
         </div>
       </div>
-    </div>
+      <script>
+        function closeBar() {
+          document.getElementById('closeBar').style.display = 'none'
+        }
+
+        function openBar() {
+          document.getElementById('closeBar').style.display = 'block'
+        }
+      </script>
   </body>
 </html>
