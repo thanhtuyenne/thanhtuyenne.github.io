@@ -1278,14 +1278,15 @@ h4 i {
 .aside-bar {
   position: sticky;
   top: 0;
-  width: 380px;
+  width: 0px;
   background-color: #fff;
   z-index: 1;
-  display: none;
+  /* display: none; */
   height: 100vh;
   float: right;
   overflow: auto;
-  animation: leftApp ease 0.4s;
+  /* animation: leftApp ease 0.4s; */
+  transition: 0.4s;
 }
 
 .best-head {
@@ -1314,10 +1315,6 @@ h4 i {
   padding-top: 8px;
   padding-right: 8px;
   cursor: pointer;
-}
-
-.icon-close:active .aside-bar {
-  animation: rightApp ease 0.4s;
 }
 
 .cmn-img {
