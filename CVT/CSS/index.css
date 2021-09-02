@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Consolas";
+}
+
+:root {
+  --primary-color: #f8c291;
+}
+
+.container {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+}
+
+.card-inf {
+  position: absolute;
+  background-color: #3c6382;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.header {
+  display: inline-block;
+  padding: 4px;
+  border-radius: 50%;
+  margin: auto;
+  background: linear-gradient(145deg, #dcdde1, #7f8fa6);
+  margin-top: 40px;
+}
+
+.header-img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+}
+
+.name {
+  color: #fff;
+  font-size: 25px;
+  padding-top: 10px;
+  letter-spacing: 1.5px;
+}
+
+.desc {
+  color: var(--primary-color);
+  letter-spacing: 2px;
+  font-size: 13px;
+  padding-top: 10px;
+}
+
+.social {
+  font-size: 18px;
+  padding-top: 20px;
+  margin-left: -20px;
+}
+
+.icon {
+  margin: 0px 8px 10px 8px;
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  color: var(--primary-color);
+}
+
+.btn {
+  margin-top: 30px;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  color: #fff;
+  border: 1px solid #fff;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+  border-radius: 24px;
+  cursor: pointer;
+  width: 180px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  width: 200px;
+}
