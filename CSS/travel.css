@@ -1244,22 +1244,47 @@ h4 i {
 @keyframes leftApp {
   from {
     margin-right: -400px;
-    opacity: 0.5;
+    opacity: 0;
   }
   to {
     margin-right: 0;
     opacity: 1;
   }
 }
+@keyframes rightApp {
+  from {
+    margin-right: 0;
+    opacity: 1;
+  }
+  to {
+    margin-right: -400px;
+    opacity: 0;
+  }
+}
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--small-text);
+  border-radius: 10px;
+}
 
 .aside-bar {
-  position: absolute;
-  width: 360px;
-  right: 0;
+  position: sticky;
+  top: 0;
+  width: 380px;
   background-color: #fff;
   z-index: 1;
   display: none;
-  min-height: 550px;
+  height: 100vh;
+  float: right;
+  overflow: auto;
   animation: leftApp ease 0.4s;
 }
 
@@ -1289,6 +1314,10 @@ h4 i {
   padding-top: 8px;
   padding-right: 8px;
   cursor: pointer;
+}
+
+.icon-close:active .aside-bar {
+  animation: rightApp ease 0.4s;
 }
 
 .cmn-img {
