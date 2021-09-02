@@ -14,65 +14,73 @@
       src="https://kit.fontawesome.com/a0a7c0f0d8.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
-      <!-- Aside Bar -->
+    <div class="qc">
+      <div class="qc-content">
+        <p class="icon">$</p>
+        <p class="price">54</p>
+        <i class="fas fa-fire fire-icon"></i>
+      </div>
+    </div>
+    <!-- Aside Bar -->
     <div class="aside-bar" id="closeBar">
-        <div class="bar-content">
-          <div class="best-packages">
-            <i class="far fa-times-circle icon-close" onclick="closeBar()"></i>
-            <div class="best-head">
-              <p class="cmn-small">BEST</p>
-              <p class="cmn-big yel-line">PACKAGES</p>
+      <div class="bar-content">
+        <div class="best-packages">
+          <i class="far fa-times-circle icon-close" onclick="closeBar()"></i>
+          <div class="best-head">
+            <p class="cmn-small">BEST</p>
+            <p class="cmn-big yel-line">PACKAGES</p>
+          </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/berlin.jpg" alt="" class="cmn-img" />
             </div>
-            <div class="cmn-block-aside">
-              <div class="block-img">
-                <img src="./img/berlin.jpg" alt="" class="cmn-img" />
+            <div class="block-desc">
+              <p class="name-place">Berlin</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">Europe</p>
               </div>
-              <div class="block-desc">
-                <p class="name-place">Berlin</p>
-                <div class="info-direct">
-                  <i class="fas fa-map-marker-alt direct-icon"></i>
-                  <p class="direct-name">Europe</p>
-                </div>
-                <a href="#" class="block-price berlin-color">FROM 700 $</a>
-              </div>
-            </div>
-            <div class="cmn-block-aside">
-              <div class="block-img">
-                <img src="./img/hongkong.jpg" alt="" class="cmn-img" />
-              </div>
-              <div class="block-desc">
-                <p class="name-place">Hong Kong</p>
-                <div class="info-direct">
-                  <i class="fas fa-map-marker-alt direct-icon"></i>
-                  <p class="direct-name">Asia</p>
-                </div>
-                <a href="#" class="block-price hk-icon">FROM 500 $</a>
-              </div>
-            </div>
-            <div class="cmn-block-aside">
-              <div class="block-img">
-                <img src="./img/sanf.jpg" alt="" class="cmn-img" />
-              </div>
-              <div class="block-desc">
-                <p class="name-place">San Francisco</p>
-                <div class="info-direct">
-                  <i class="fas fa-map-marker-alt direct-icon"></i>
-                  <p class="direct-name">United States</p>
-                </div>
-                <a href="#" class="block-price us-icon">FROM 400 $</a>
-              </div>
+              <a href="#" class="block-price berlin-color">FROM 700 $</a>
             </div>
           </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/hongkong.jpg" alt="" class="cmn-img" />
+            </div>
+            <div class="block-desc">
+              <p class="name-place">Hong Kong</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">Asia</p>
+              </div>
+              <a href="#" class="block-price hk-icon">FROM 500 $</a>
+            </div>
+          </div>
+          <div class="cmn-block-aside">
+            <div class="block-img">
+              <img src="./img/sanf.jpg" alt="" class="cmn-img" />
+            </div>
+            <div class="block-desc">
+              <p class="name-place">San Francisco</p>
+              <div class="info-direct">
+                <i class="fas fa-map-marker-alt direct-icon"></i>
+                <p class="direct-name">United States</p>
+              </div>
+              <a href="#" class="block-price us-icon">FROM 400 $</a>
+            </div>
+          </div>
+        </div>
 
-          <div class="best-destination">
-            <div class="img-line">
-              <img src="./img/europe.jpg" alt="Europe" class="des-img" />
-              <i class="fas fa-hotel img-icon"></i>
-              <div class="img-desc">
-                <h3 class="img-heading">Europe</h3>
-                <p class="img-pack">3 PACKAGES</p>
+        <div class="best-destination">
+          <div class="img-line">
+            <img src="./img/europe.jpg" alt="Europe" class="des-img" />
+            <i class="fas fa-hotel img-icon"></i>
+            <div class="img-desc">
+              <h3 class="img-heading">Europe</h3>
+              <p class="img-pack">3 PACKAGES</p>
             </div>
           </div>
           <div class="img-back">
@@ -139,9 +147,9 @@
             </div>
           </div>
         </div>
-        </div>
       </div>
-    <div class="main"> 
+    </div>
+    <div class="main">
       <!-- Header -->
       <div class="header">
         <div class="header-bar">
@@ -564,15 +572,14 @@
                     <input type="radio" name="radio-btn" id="r3" />
 
                     <div class="slide first">
-                      <img src="./img/beach1.jpg" alt="" />
+                      <img src="./img/beach1.jpg" class="myImg" />
                     </div>
                     <div class="slide">
-                      <img src="./img/beach2.jpg" alt="" />
+                      <img src="./img/beach2.jpg" class="myImg" />
                     </div>
                     <div class="slide">
-                      <img src="./img/beach3.jpg" alt="" />
+                      <img src="./img/beach3.jpg" class="myImg" />
                     </div>
-
                     <div class="navi-auto">
                       <div class="auto-btn1"></div>
                       <div class="auto-btn2"></div>
@@ -581,7 +588,7 @@
                   </div>
 
                   <div class="navi-manual">
-                    <label for="r1" class="manual-btn"></label>
+                    <label for="r1" class="manual-btn active"></label>
                     <label for="r2" class="manual-btn manual-btn2"></label>
                     <label for="r3" class="manual-btn"></label>
                   </div>
@@ -915,16 +922,31 @@
           </div>
         </div>
       </div>
-      <script>
-        function closeBar() {
-          // document.getElementById('closeBar').style.display = 'none'
-          document.getElementById('closeBar').style.width = '0px'
-        }
+    </div>
+    <script>
+      function closeBar() {
+        // document.getElementById('closeBar').style.display = 'none'
+        document.getElementById("closeBar").style.width = "0px";
+      }
 
-        function openBar() {
-          // document.getElementById('closeBar').style.display = 'block'
-          document.getElementById('closeBar').style.width = '380px'
-        }
-      </script>
+      function openBar() {
+        // document.getElementById('closeBar').style.display = 'block'
+        document.getElementById("closeBar").style.width = "380px";
+      }
+
+      label = document.getElementsByClassName("manual-btn");
+      btn = document.getElementsByName("radio-btn");
+      $(document).ready(function () {
+        $("input[type='radio']").change(function () {
+          for (var i = 0; i < btn.length; i++) {
+            if (btn[i].checked == true) {
+              label[i].className += " active";
+            } else {
+              label[i].className = label[i].className.replace(" active", "");
+            }
+          }
+        });
+      });
+    </script>
   </body>
 </html>
