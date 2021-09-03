@@ -82,6 +82,10 @@
 i.fa.fa-bars.bar-icon {
   font-size: 35px;
 }
+
+i.fa.fa-bars.bar-icon-mobile {
+  display: none;
+}
 /* COMMON LIST */
 .list-package,
 .list-shop,
@@ -594,6 +598,11 @@ i.fa.fa-bars.bar-icon {
 
 .holiday-text {
   line-height: 53px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
 }
 
 .holiday-link {
@@ -1542,4 +1551,8 @@ h4 i {
   padding-top: 15px;
   right: 30px;
   bottom: -27px;
+}
+
+.icon-close-res {
+  display: none;
 }

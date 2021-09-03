@@ -1,0 +1,249 @@
+@media (max-width: 740px) {
+  .logo-bar {
+    width: 50%;
+    margin-left: 60px;
+  }
+
+  .header-icon {
+    font-size: 40px;
+    color: #fff;
+    margin: 30px 50px;
+    position: absolute;
+    right: 120px;
+    top: 40px;
+    cursor: pointer;
+  }
+
+  i.fa.fa-bars.bar-icon {
+    display: none;
+  }
+
+  i.fa.fa-bars.bar-icon-mobile {
+    display: block;
+    padding: 10px;
+  }
+
+  .header-block {
+    position: sticky;
+    background-color: #696d75;
+    width: 240px;
+    right: 0;
+    z-index: 1;
+    display: none;
+    transition: 0.6s;
+    float: right;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .icon-close-res {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+    padding: 17px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+  .header-list {
+    display: block;
+    margin-left: -10px;
+    font-size: 25px;
+  }
+
+  .header-item {
+    font-weight: bold;
+    margin-left: -25px;
+    text-align: left;
+    line-height: 20px;
+  }
+
+  .header-btn {
+    display: none;
+  }
+
+  .heading1 {
+    margin-top: 40px;
+    width: 250px;
+    margin-left: 25px;
+  }
+
+  .heading1::after {
+    content: "";
+    position: absolute;
+    background: violet;
+    width: 172px;
+    height: 5px;
+    left: 70px;
+    top: 200px;
+  }
+
+  .heading2 {
+    width: 250px;
+    margin-left: 25px;
+    line-height: 30px;
+  }
+
+  .header-desc {
+    margin-top: 300px;
+  }
+
+  .header {
+    width: 375px;
+  }
+
+  .input {
+    position: relative;
+    width: 270px;
+  }
+
+  .input-icon {
+    position: absolute;
+    left: 250px;
+    margin-top: 191px;
+  }
+
+  .event-list {
+    display: block;
+    width: 300px;
+  }
+
+  .event-item {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    display: block;
+    padding: 20px;
+  }
+  .list-package,
+  .list-shop,
+  .list-about,
+  .list-page,
+  .list-new,
+  .list-contact {
+    display: block;
+  }
+
+  .cmn-list {
+    position: inherit;
+    background: none;
+    box-shadow: none;
+  }
+
+  .sub-item {
+    padding: 10px;
+  }
+
+  .sub-item a {
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .item-icon,
+  .badge {
+    display: none;
+  }
+
+  .sub-list-package {
+    display: block;
+    right: 0;
+    background-color: transparent;
+    position: inherit;
+    box-shadow: none;
+  }
+
+  .des-text2 {
+    margin-left: 80px;
+  }
+
+  .des-text1 {
+    margin-top: -10px;
+  }
+
+  .des-text1::after {
+    content: "";
+    width: 270px;
+    height: 5px;
+    background-color: #1bbc9b;
+    position: absolute;
+    top: 114px;
+    left: 24px;
+  }
+
+  .grid__row {
+    display: block;
+  }
+
+  .des-item {
+    width: 250px;
+    height: 250px;
+    margin: 50px 30px 50px 25px;
+  }
+  .des-img {
+    width: 100%;
+  }
+
+  .back {
+  }
+
+  .heading3 {
+    top: 50px;
+    left: 75px;
+  }
+
+  .head-list {
+    padding-top: 80px;
+  }
+
+  .back-btn {
+    padding: 7px 8px;
+    font-size: 12px;
+    margin-left: 55px;
+  }
+
+  .bridge-img {
+    top: -240px;
+    height: 700px;
+    position: absolute;
+    width: 110%;
+    z-index: -1;
+    clip-path: polygon(0 34%, 100% 34%, 100% 64%, 0 64%);
+  }
+
+  .holiday_desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .holiday-text {
+    font-size: 48px;
+    line-height: 41px;
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+
+  .holiday-text::after {
+    content: "";
+    width: 180px;
+    height: 5px;
+    color: #f76570;
+    top: 130px;
+    position: absolute;
+    left: 74px;
+  }
+
+  .holiday-link {
+    padding: 10px;
+    font-size: 10px;
+    margin-left: 100px;
+  }
+
+  .destination {
+    margin-left: 30px;
+  }
+}

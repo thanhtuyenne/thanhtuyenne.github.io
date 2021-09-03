@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tour Packages</title>
     <link rel="stylesheet" href="./CSS/travel.css" />
+    <link rel="stylesheet" href="./CSS/travelR.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -155,7 +156,11 @@
         <div class="header-bar">
           <img src="./img/logoT.png" alt="Logo" class="logo-bar" />
         </div>
-        <div class="header-block">
+        <div class="header-block" id="block">
+          <i
+            class="far fa-times-circle icon-close-res"
+            onclick="closeBar2()"
+          ></i>
           <ul class="header-list">
             <li class="header-item">
               <a href="#" class="header-link"> HOME </a>
@@ -329,6 +334,7 @@
         </div>
         <div class="header-icon">
           <i class="fa fa-bars bar-icon" onclick="openBar()"></i>
+          <i class="fa fa-bars bar-icon-mobile" onclick="openList()"></i>
         </div>
 
         <!-- Main Header -->
@@ -530,9 +536,7 @@
             <div class="holiday">
               <img src="./img/bridge.jpg" alt="" class="bridge-img" />
               <div class="holiday_desc">
-                <p class="heading1 holiday-text pink-line">
-                  Your <br />Next Holiday
-                </p>
+                <p class="holiday-text pink-line">Your <br />Next Holiday</p>
                 <a href="#" class="holiday-link btn">VIEW ALL PACKAGES</a>
               </div>
             </div>
@@ -947,6 +951,13 @@
           }
         });
       });
+
+      function openList() {
+        document.getElementById("block").style.display = "block";
+      }
+      function closeBar2() {
+        document.getElementById("block").style.display = "none";
+      }
     </script>
   </body>
 </html>
