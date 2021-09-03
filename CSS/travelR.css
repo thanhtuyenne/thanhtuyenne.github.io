@@ -37,7 +37,7 @@
     overflow-x: hidden;
   }
 
-  .icon-close-res {
+  i.far.fa-times-circle.icon-close-res {
     display: block;
     position: absolute;
     top: 0;
@@ -245,5 +245,9 @@
 
   .destination {
     margin-left: 30px;
+  }
+
+  .qc {
+    display: none;
   }
 }

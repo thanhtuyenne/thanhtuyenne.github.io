@@ -1553,6 +1553,6 @@ h4 i {
   bottom: -27px;
 }
 
-.icon-close-res {
+i.far.fa-times-circle.icon-close-res {
   display: none;
 }
