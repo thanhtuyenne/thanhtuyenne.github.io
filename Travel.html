@@ -937,6 +937,12 @@
         // document.getElementById('closeBar').style.display = 'block'
         document.getElementById("closeBar").style.width = "380px";
       }
+      function openList() {
+        document.getElementById("block").style.display = "block";
+      }
+      function closeBar2() {
+        document.getElementById("block").style.display = "none";
+      }
 
       label = document.getElementsByClassName("manual-btn");
       btn = document.getElementsByName("radio-btn");
@@ -951,13 +957,6 @@
           }
         });
       });
-
-      function openList() {
-        document.getElementById("block").style.display = "block";
-      }
-      function closeBar2() {
-        document.getElementById("block").style.display = "none";
-      }
     </script>
   </body>
 </html>
